@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMI Calculator</title>
+    <link rel="stylesheet" href="emi.css">
+</head>
+<body>
+    
+     <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="icons/logo.jpeg" alt="TechyFox logo">
+                </a>
+            </div>
+            <ul class="navlinks">
+                <li><a href="index.html" >Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                     <li><a href="about.html">About</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>EMI Calculator</h1>
+        <input type="number" id="loanamount" placeholder="loan amount" >
+    <input type="number" id="intrestrate" placeholder="annual intrestr rate (%)">
+    <input type="text" id="loanyears" placeholder="loan period(years)">
+    <button onclick="calculateEMI()">Calculate EMI</button>
+    <h2 id="result"></h2>
+ </div>
+ <script src="emi.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGPA Calculator</title>
+    <link rel="stylesheet" href="cgpa.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="icons/logo.jpeg" alt="TechyFox logo">
+                </a>
+            </div>
+            <ul class="navlinks">
+                <li><a href="index.html" >Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                     <li><a href="about.html">About</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>CGPA Calculator</h1>
+        <input type="text" id="sem1" placeholder="semester 1 gpa"
+        step="0.01">
+        <input type="text" id="sem2" placeholder="semester 2 gpa"
+        step="0.01">
+        <input type="text" id="sem3" placeholder="semester 3 gpa"
+        step="0.01">
+        <input type="text" id="sem4" placeholder="semester 4 gpa"
+        step="0.01">
+        <input type="text" id="sem5" placeholder="semester 5 gpa"
+        step="0.01">
+        <input type="text" id="sem6" placeholder="semester 6 gpa"
+        step="0.01">
+        <input type="text" id="sem7" placeholder="semester 7 gpa"
+        step="0.01">
+        <input type="text" id="sem8" placeholder="semester 8 gpa"
+        step="0.01">
+        <button onclick="calculateCGPA()">Calculate CGPA</button>
+        <h2 id="result">CGPA : 0.00</h2>
+    </div>
+    <script src="cgpa.js"></script>
+</body>
+</html>

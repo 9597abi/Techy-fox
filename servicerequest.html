@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Request</title>
+    <link rel="stylesheet" href="servicerequest.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+
+        <div class="logo">
+            <img src="logo.png" width="60">
+        </div>
+
+        <ul class="navlinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+    </nav>
+</header>
+
+<section class="hero">
+
+    <div class="overlay">
+
+        <h1 id="servicetitle">Loading...</h1>
+
+        <p id="servicedescription">
+            Please wait...
+        </p>
+
+    </div>
+
+</section>
+
+<section class="details">
+
+<div class="card">
+
+<h2>Required Documents</h2>
+
+<ul id="servicelist">
+
+</ul>
+<section class="requestform">
+ <h2>Request this Service</h2>
+ <form id="Request Form">
+    <input type="text" placeholder="full name" required>
+    <input type="tel" placeholder="Mobile Number" required>
+    <input type="email" placeholder="Email Address">
+    <input type="text" placeholder="Aadhar Number">
+    <textarea placeholder="Additional Information" 
+    (optional)></textarea>
+<button type="submit">Submit Request</button> 
+</form>
+
+</div>
+</section>
+</section>
+
+<footer>
+
+<p>© 2026 TechyFox | All Rights Reserved</p>
+
+</footer>
+
+<script src="servicerequest.js"></script>
+
+</body>
+</html>
